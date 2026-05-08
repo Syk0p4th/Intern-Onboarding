@@ -56,22 +56,24 @@ The admins should be able to manage user complaints and disputes
 
 
 ## 4. Non-Functional Requirements
-- Table with columns: Category, Metric, Target, How we'll measure it
 
-Students - The search result responce time under <= 3 seconds
-The platform should work on both IOS and Android Tablets, Phones
-Students should be able to complete a booking over 95% of the times
-Students shall be able to access the platform 99.5% of the time
-
-Tutors - The tutors should notified within < 1 minute after creating a booking
-Tutors Should be able to accept a booking before 12 hours prior to the scheduled time 
-Tutors should be able to update a booking < 2 minutes
-Tutors avalability data should remain accurate with booking conflicts should be <1%.
-
-Operational Admin - Admin dashboard data should load < 5 seconds
-Admin actions log coverage should be 100% 
-Admin data should be backed up daily to prevent data loss with <100% data back ups
-System shall support tickets up < 500 at once 
+| Category      | Metric (SLI)                          | Target (SLO)         | Measurement Source       |
+|---------------|----------------------------------------|----------------------|--------------------------|
+| Latency       | Search API response time, p95          | < 800 ms             | Azure Application Insights |
+| Availability  | /book endpoint successful response %   | 99.5% per calendar mo| Azure Monitor + synthetic  |
+| Concurrency   | Active video sessions                  | >= 200 simultaneous  | Daily.co dashboard         |
+| Latency       | Search result response time            | <= 3 seconds         | Azure Application Insights |
+| Compatibility | Platform support                       | IOS and Android Tablets, Phones | BrowserStack              |
+| Reliability   | Booking completion rate                | > 95%                | Azure Application Insights |
+| Availability  | Platform access uptime                 | 99.5%                | Azure Monitor             |
+| Latency       | Tutor notification time after booking  | < 1 minute           | Azure Notification Hubs  |
+| Reliability   | Tutor booking acceptance window        | Before 12 hours prior| Booking system logs      |
+| Latency       | Booking update time                    | < 2 minutes          | Azure Application Insights |
+| Accuracy      | Tutor availability data accuracy       | Booking conflicts <1%| Database validation logs  |
+| Latency       | Admin dashboard load time              | < 5 seconds          | Azure Application Insights |
+| Completeness  | Admin actions log coverage             | 100%                 | Azure Log Analytics      |
+| Backup        | Admin data backup frequency            | Daily, <100% data loss| Azure Backup logs        |
+| Scalability   | Concurrent ticket support              | Up to 500            | Azure Load Testing       | 
  
 
 ## 5. Assumptions
