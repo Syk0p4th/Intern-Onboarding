@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="sDMusLSAEMuhPVzuP3uk">
+    <mxGraphModel dx="1136" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-9" edge="1" parent="1" source="eRzL93zX5iCGUuWTB-0k-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="eRzL93zX5iCGUuWTB-0k-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Member&lt;div&gt;Colombo Resident&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-13" edge="1" parent="1" source="eRzL93zX5iCGUuWTB-0k-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="eRzL93zX5iCGUuWTB-0k-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="React Native app&amp;nbsp;&lt;br&gt;Member facing UI" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=0;" value="browses and request using HTTPS" vertex="1">
+          <mxGeometry height="30" width="100" x="440" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-22" edge="1" parent="1" source="eRzL93zX5iCGUuWTB-0k-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="eRzL93zX5iCGUuWTB-0k-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-23" edge="1" parent="1" source="eRzL93zX5iCGUuWTB-0k-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="eRzL93zX5iCGUuWTB-0k-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-26" edge="1" parent="1" source="eRzL93zX5iCGUuWTB-0k-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="eRzL93zX5iCGUuWTB-0k-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Node.js Express API&lt;div&gt;Azure app services&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="420" x="230" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Calls REST APIs using HTTPS" vertex="1">
+          <mxGeometry height="30" width="150" x="430" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFF99;strokeColor=#b85450;" value="Azure Cache Redis" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-16" edge="1" parent="1" source="eRzL93zX5iCGUuWTB-0k-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="eRzL93zX5iCGUuWTB-0k-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Azure SQL&amp;nbsp;&lt;div&gt;System of record&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="100" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;" value="Azure Blob Storage&lt;div&gt;Book photos&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-24" edge="1" parent="1" source="eRzL93zX5iCGUuWTB-0k-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" target="eRzL93zX5iCGUuWTB-0k-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6666FF;" value="Azure Service Bus&lt;div&gt;async queue&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF6666;" value="Azure Comms&lt;div&gt;outbound email&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="690" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF99CC;" value="Microsoft Entra External ID" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-25" edge="1" parent="1" source="eRzL93zX5iCGUuWTB-0k-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.636;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" target="eRzL93zX5iCGUuWTB-0k-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Publishes jobs using AMQP" vertex="1">
+          <mxGeometry height="30" width="80" x="710" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Stores photos Through HTTPS" vertex="1">
+          <mxGeometry height="30" width="100" x="560" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Triggers Send" vertex="1">
+          <mxGeometry height="30" width="80" x="760" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="TCP ,caches read" vertex="1">
+          <mxGeometry height="30" width="100" x="350" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SQL/TCP -Reads / write" vertex="1">
+          <mxGeometry height="30" width="101" x="159" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="eRzL93zX5iCGUuWTB-0k-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="issues JWT tokens" vertex="1">
+          <mxGeometry height="30" width="90" x="180" y="630" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
