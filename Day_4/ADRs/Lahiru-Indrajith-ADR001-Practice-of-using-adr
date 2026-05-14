@@ -1,0 +1,32 @@
+# ADR 0001: Practice of using ADRs
+
+## Status
+Accepted (date: 2026-05-14)
+
+## Context
+The Company is building a new claims management system using azure and node.js and will take many technical decisions over the upcoming weeks
+Without having a record, decisions get forgotten, re-litigated or misunderstood by the new team members joining the team 
+And We also don't know how large the team and how fast the team will grow.
+
+## Decision
+We will use architectural diagram to capture every technical decision made in the making of the system.
+Every ADR follows the same format: Status, Context, Decision, Consequences, Alternatives
+Any decision thats gonna affect the system design, architecture, or workflow needs a individual ADR.
+
+
+## Consequences
+- Easier
+The new team members can understand why the system is built the way it is 
+Revisiting past details have a paper trail
+Dissagreements can be resolved by writing down instead of arguing
+
+- Harder
+Every significant decision requires a short write-up before merging — adds a small upfront cost
+The team must agree on what counts as "significant enough" to warrant an ADR
+
+- Different
+Technical discussions now produce a written artefact, not just a Slack thread
+The codebase becomes self-documenting at the architectural level
+
+## Alternatives considered
+- Relying on PR Desicions - rejected because PR descriptions are scattered, hard to search, and don't capture the why behind a decision in a structured way.
