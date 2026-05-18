@@ -1,0 +1,14 @@
+{
+  "name": "receipt-categoriser",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0",
+    "typescript": "^5.4.5",
+    "@types/node": "^20.14.0"
+  }
+}
